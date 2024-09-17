@@ -1,0 +1,11 @@
+# Fill in this file based on the instructions in the README.md
+
+services:
+  #NOTE do not change 'f1demo2val' name
+  f1demo2val:
+    # fill in this section for f1demo2val image
+
+  #NOTE do not change 'mqttfeeder' name
+  mqttfeeder:
+    # fill in this section for val2mqtt image
+# fill in the rest with all the necessary information
