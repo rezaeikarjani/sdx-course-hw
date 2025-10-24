@@ -22,13 +22,6 @@ The following files are needed for this assignment:
 
 - [docker-compose.yml](./docker-compose.yml)
 - [mosquitto.conf](./mosquitto.conf)
-- Provide a link ([video-demonstration file](./video-demonstration.url)) to a recorded short video (about 5 minutes) with the following conditions:
-
-  - Have your mic and camera on while screen recording your desktop
-  - Introduce yourself by stating your full name
-  - Explain each line of the code in the docker-compose.yml and mosquitto.conf files, and the reason that you have included such a line in each file
-  - Run the commands step by step, and show that the whole implementation of the assignment is working as illustrated in this exercise
-  - You could use your office365 (or any other online place like YouTube etc.) for storing the recorded video and share its link in here
 
 - Run the following in the HW02 directory to deliver the assignment:
 

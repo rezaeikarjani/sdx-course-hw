@@ -39,14 +39,6 @@ Hint: If you get the "do handshake" error: your certs are mounted wrong, they ar
 
 1. [mosquitto.yaml](./mosquitto.yaml) file
 
-2. Provide a link ([video-demonstration file](video-demonstration.url)) to a recorded short video (about 7 minutes) that shows you can successfully create the mosquitto broker in Rahti cloud and test connectivity to it by using mosquitto_sub command
-
-   - Have your mic and camera on while screen recording your desktop
-   - Introduce yourself by stating your full name
-   - Explain each line of the code in the [mosquitto.yaml](./mosquitto.yaml) file, and the reason that you have included such a line in each file
-   - Run the commands step by step, and show that the whole implementation of the assignment is working as illustrated in this exercise.
-   - You could use your office365 (or any other online place like YouTube etc.) for storing the recorded video and share its link in here
-
 ## Provide RAHTI_TOKEN {#rahti-token}
 
 In order for the tests to check your assignment, a variable named `RAHTI_TOKEN` should be configured by you. Follow the below instructions:

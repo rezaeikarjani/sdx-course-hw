@@ -29,13 +29,6 @@ In this exercise you should have the following connection flow happening in your
 - [f1demo2val.dockerfile](./f1demo2val.dockerfile) and required files ([f1demo2val-files/](./f1demo2val-files/))
 - [val2mqtt.dockerfile](./val2mqtt.dockerfile) and required files ([val2mqtt-files/](./val2mqtt-files/))
 
-- Provide a link ([video-demonstration file](video-demonstration.url)) to a recorded short video (about 7 minutes) with the following conditions:
-  - Have your mic and camera on while screen recording your desktop
-  - Introduce yourself by stating your full name
-  - Explain each line of the code in the delivered files, and the reason that you have included such a line in each file
-  - Run the commands step by step, and show that the whole implementation of the task is working as illustrated in the task
-  - You could use your office365 (or any other online place like YouTube etc.) for storing the recorded video and share its link in here
-
 ## Provide RAHTI_TOKEN
 
 Check the [Provide RAHTI_TOKEN](../HW03/README.md#provide-rahti_token) section in HW03 before pushing the assignment files.

@@ -48,15 +48,8 @@ _Hint_: Run the image for testing the connection before tagging and pushing it t
 The following is the list of requirements for this homework assignment to be delivered by the deadline:
 
 1. The [Dockerfile](./Dockerfile)
-2. Provide a link ([video-demonstration file](video-demonstration.url)) to a recorded short video (about 2 minutes) with the following conditions:
 
-   - Have your mic and camera on while screen recording your desktop
-   - Introduce yourself by stating your full name
-   - Explain each line of the code in the Dockerfile, and the reason that you have included such a line in the Dockerfile
-   - Run the commands step by step, and show that the whole implementation of the assignment is working as illustrated in this exercise
-   - You could use your office365 (or any other online place like YouTube etc.) for storing the recorded video and share its link in here
-
-3. Run the following in the HW01 directory to deliver the assignment:
+2. Run the following in the HW01 directory to deliver the assignment:
 
 ```shell
    git commit -am "HW01"
