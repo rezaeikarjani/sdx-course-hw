@@ -24,7 +24,7 @@ Next, TAs need to be added to the forked project. Follow the blew instructions:
 1. On the forked repo page, hover over the top left corner to see the sidebar.
 2. Once the sidebar is visible, click on `mange --> member`.
 3. On the project members page, click on the blue button `invite members` on the top right.
-4. Search for `a.b.z.m` and add the TA with the owner role.
+4. Search for `???` and add the TA with the owner role. (THIS PART REQUIRES UPDATE FROM THE MAIN TAs)
 
 ## Create a Project in Rahti
 
@@ -71,7 +71,7 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
    5. Choose the `Project access` tab
    6. Click on `Add access` button
    7. Select `User` for the subject section
-   8. Enter `bakhshiz` in the name section and choose the `Admin` role
+   8. Enter `???` in the name section and choose the `Admin` role (THIS PART REQUIRES UPDATE FROM THE MAIN TAs)
    9. Click on the `Save` button at the bottom of the page
 
 ## Download Required CLI Tools
