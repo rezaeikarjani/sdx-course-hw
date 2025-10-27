@@ -80,13 +80,13 @@ You need a couple of command line tools during this course. Install the followin
 
 - [OC](https://console.rahti.csc.fi/command-line-tools) is needed to interact with Rahti
 - [mosquitto](https://mosquitto.org/download/) is needed to interact with MQTT broker. You can check the installation is complete, by doing the following:
-  - Open two terminals
-  - On the first terminal run ´mosquitto_sub -h test.mosquitto.org -p 1883 -t 'sdx/#' -v´
-  - On the second one run ´mosquitto_pub -h test.mosquitto.org -p 1883 -t 'sdx/<insert_string>' -m '1337'´
-  - Check the first terminal, you should see: sdx/<insert_string> 1337
-  - Replace <insert_string> with your own word/number
+  - Open _two_ terminals
+  - On the _first_ terminal run `mosquitto_sub -h test.mosquitto.org -p 1883 -t 'sdx/#' -v`
+  - On the _second_ one run `mosquitto_pub -h test.mosquitto.org -p 1883 -t 'sdx/<insert_string>' -m '1337'`
+  - Check the first terminal, you should see: `sdx/<insert_string> 1337`
+  - Replace `<insert_string>` with your own word/number
 - [Docker](https://docs.docker.com/engine/install/) is needed for building and managing microservices
-- [git](https://git-scm.com/downloads) is needed to deliver you assignments
+- [git](https://git-scm.com/downloads) is needed to deliver your assignments
 
 ## Clone the Forked Repo into Your Computer
 
