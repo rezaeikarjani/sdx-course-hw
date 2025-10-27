@@ -55,7 +55,7 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
    16. You may need to wait for about 30 minutes until you can start creating a project in Rahti
 3. Create a project in Rahti:
    1. Go to [rahti.csc.fi](https://rahti.csc.fi/)
-   2. Click on the `Login page` for the Rahti-2 Environment
+   2. Click on the `Login page`
    3. Once you authenticate, you will be presented by the Rahti web interface. In this page, you can see the blue button `Create Project`; click on it
    4. Choose the name of the project like: `sdx-assignment- YOUR CSC USERNAME`
    5. In the Description section, enter the following: `csc_project: PROJECT-NUMBER`
@@ -78,7 +78,7 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
 
 You need a couple of command line tools during this course. Install the following tools for your operating system:
 
-- [OC](https://docs.openshift.com/container-platform/4.16/cli_reference/openshift_cli/getting-started-cli.html) is needed to interact with Rahti
+- [OC](https://console.rahti.csc.fi/command-line-tools) is needed to interact with Rahti
 - [mosquitto](https://mosquitto.org/download/) is needed to interact with MQTT broker. You can check the installation is complete, by doing the following:
   - Open two terminals
   - On the first terminal run ´mosquitto_sub -h test.mosquitto.org -p 1883 -t 'sdx/#' -v´
