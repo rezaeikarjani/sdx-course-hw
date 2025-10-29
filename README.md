@@ -71,7 +71,7 @@ For HW03 and HW04 you will need to work with Kubernetes. We can use managed Kube
    5. Choose the `Project access` tab
    6. Click on `Add access` button
    7. Select `User` for the subject section
-   8. Enter `???` in the name section and choose the `Admin` role (THIS PART REQUIRES UPDATE FROM THE MAIN TAs)
+   8. Enter `timoneno` in the name section and choose the `Admin` role
    9. Click on the `Save` button at the bottom of the page
 
 ## Download Required CLI Tools
