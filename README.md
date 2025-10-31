@@ -24,7 +24,7 @@ Next, TAs need to be added to the forked project. Follow the blew instructions:
 1. On the forked repo page, hover over the top left corner to see the sidebar.
 2. Once the sidebar is visible, click on `mange --> member`.
 3. On the project members page, click on the blue button `invite members` on the top right.
-4. Search for `@otimonen22 or @prabhashkumara` to add to your project.
+4. Search for `@otimonen22, @sameera-g or @prabhashkumara` to add to your project.
 
 ## Create a Project in Rahti
 
