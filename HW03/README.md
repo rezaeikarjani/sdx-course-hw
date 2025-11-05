@@ -93,8 +93,8 @@ mosquitto_sub -t '<student_id>/#' --cafile ca.crt --insecure --host ??? --port ?
 
 Some useful links:
 
-- [Pods and services](https://docs.openshift.com/dedicated/3/architecture/core_concepts/pods_and_services.html)
-- [Deployments](https://docs.openshift.com/container-platform/4.16/applications/deployments/what-deployments-are.html)
+- [Pods and services](https://docs.redhat.com/en/documentation/openshift_container_platform/3.11/html/architecture/core-concepts#architecture-core-concepts-pods-and-services)
+- [Deployments](https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/building_applications/deployments#what-deployments-are)
 - [Volumes](https://docs.openshift.com/container-platform/3.11/dev_guide/volumes.html)
 - [ConfigMaps](https://docs.openshift.com/container-platform/3.11/dev_guide/configmaps.html)
 - [Routes](https://docs.csc.fi/cloud/rahti2/networking/#routes)
