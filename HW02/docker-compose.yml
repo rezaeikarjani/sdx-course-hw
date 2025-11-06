@@ -1,1 +1,24 @@
-# Fill in this file based on the instructions in the README.md
+version: '3.8'
+
+services:
+  toyota-feeder:
+    image: image-registry.apps.2.rahti.csc.fi/sdx-assignment-hrezaeik/toyota-feeder:1.0
+    environment:
+      - MQTT_URL=mosquitto
+      - MQTT_PORT=8883
+      - CLIENT_ID=hrezaeik
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
+
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    ports:
+      - "1883:1883"
+      - "8883:8883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./certs/ca.crt:/mosquitto/config/certs/ca.crt:ro
+      - ./certs/server.crt:/mosquitto/config/certs/server.crt:ro
+      - ./certs/server.key:/mosquitto/config/certs/server.key:ro
+    command: mosquitto -c /mosquitto/config/mosquitto.conf
